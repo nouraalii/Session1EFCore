@@ -54,6 +54,7 @@ namespace Assignment.Context
             modelBuilder.Entity<Stud_Course>()
                         .HasKey(SC => new { SC.Course_ID, SC.Stud_ID });
 
+
             base.OnModelCreating(modelBuilder);
         }
 
